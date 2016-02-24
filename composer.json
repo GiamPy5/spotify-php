@@ -1,0 +1,39 @@
+{
+    "name": "giampaolo/spotify-web",
+    "description": "Spotify Web API and Follow Button built in PHP library.",
+    "version": "0.0.1-dev",
+    "keywords": ["spotify", "api", "web api", "follow", "php"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "support": {
+        "email":  "giampaolofalqui@gmail.com",
+        "issues": "https://github.com/GiampaoloFalqui/spotify-web/issues",
+        "wiki":   "https://github.com/GiampaoloFalqui/spotify-web/wiki",
+        "source": "https://github.com/GiampaoloFalqui/spotify-web"
+    },
+    "authors": [
+        {
+            "name":  "Giampaolo Falqui",
+            "email": "giampaolofalqui@gmail.com",
+            "role":  "Developer"
+        }
+    ],
+    "require":     {
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.0.*",
+        "mockery/mockery": "^0.9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Giampaolo\\Spotify\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Giampaolo\\Spotify\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
